@@ -8,7 +8,11 @@ An application that builds the back-end for an e-commerce site using a working E
 
 ### User Story
 
-- As a small business owner, I want to be able to write and save notes so that I can organize and keep track of tasks I need to complete.
+```md
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
+```
 
 ### What I Learned
 - Continued practice using Node.js and new Node packages
