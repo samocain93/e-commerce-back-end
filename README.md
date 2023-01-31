@@ -44,7 +44,6 @@ THEN I am able to successfully create, update, and delete data in my database
 - [Installation](#installation)
 - [Usage](#usage)
 - [Walkthrough](#walkthrough)
-- [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
 - [Socials](#socials)
@@ -59,7 +58,6 @@ THEN I am able to successfully create, update, and delete data in my database
 
 
 ## Installation
-
 
 
 - To test locally, you can clone this repo to your device and test in your own code editor and terminal. 
@@ -82,24 +80,34 @@ Please make sure Node.js has been installed. In your terminal/command line, run 
 
 ## Usage  
 
-1. Press the blue "Get Started" button to start application
-2. Press the "Note Title" box to enter in a title for your note
-3. In the "note text" box, you can then provide a description and any further information for your note. 
-4. Press the save button icon in the top right to add your note
-5. In the left sidebar, you can view any previous notes created
-6. To add a new note, press the plus button icon in the top right of the screen
-7. To delete a note, press the red trash can icon next to the note that you would like deleted
-8. To go back to the starting page, you can press the "Note Taker" heading in the top left 
+1. Caption
+
+![usage image 1](./assets/images/usage-1.png)
+
+2. Caption
+
+![usage image 2](./assets/images/usage-2.png)
+
+3. Caption
+
+![usage 3](./assets/images/usage-3.png)
+
+4. Caption
+
+![usage 4](./assets/images/usage-4.png)
+
+5. Caption
+
+![usage 5](./assets/images/usage-5.png)
+
+
 
 
 ## Walkthrough
 
+  - Demo link
 
 
-## Credits
-
-- Programming with Mosh: https://www.youtube.com/watch?v=pKd0Rpw7O48
-- Phillip Loy / EdX Tutoring 
 
 ## License
 
