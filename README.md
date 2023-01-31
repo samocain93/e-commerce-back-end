@@ -14,21 +14,36 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
+### Acceptance Criteria
+
+
+```md
+GIVEN a functional Express.js API
+WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+THEN I am able to connect to a database using Sequelize
+WHEN I enter schema and seed commands
+THEN a development database is created and is seeded with test data
+WHEN I enter the command to invoke the application
+THEN my server is started and the Sequelize models are synced to the MySQL database
+WHEN I open API GET routes in Insomnia for categories, products, or tags
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete data in my database
+```
+
 ### What I Learned
-- Continued practice using Node.js and new Node packages
-- Using the Express framework for the first time to create routes for a server
-- Deploying a webpage to be hosted using Heroku
-- Nodemon server monitoring
-- Creating routes to serve files and information to the client
+- Further reinforcement of setting up Node.js environments and running a server 
+- Linking an API to a database to perform CRUD operations and handle requests on a server
+- Using Sequelize methods to build models and create data for our database tables
+- Continued use of Insomnia to test API routes for our application
 
 
 ## Table of Contents
 
 - [Built Using](#built-using)
-- [Deployed Application](#deployed-application)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshot](#screenshot)
+- [Walkthrough](#walkthrough)
 - [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
@@ -36,28 +51,31 @@ SO THAT my company can compete with other e-commerce companies
 
 
 ## Built Using
-![html shield](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 ) ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
-) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
+) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white) ![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white) ![VSCODE](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
 )
 
-## Deployed Application
-
-The application can be viewed via Heroku at: https://powerful-peak-88597.herokuapp.com/
 
 
 ## Installation
 
-No installation steps are necessary if viewing on the deployed page in Heroku.
 
-To test locally, you can clone this repo to your device and test in your own code editor and terminal. 
+
+- To test locally, you can clone this repo to your device and test in your own code editor and terminal. 
 Please make sure Node.js has been installed. In your terminal/command line, run `npm i` or `npm install` to install the Node dependencies found in the `package.json` file.
 
-For more information on Node.js and Express, visit:  
-
-- https://nodejs.org/en/  
-
-- https://expressjs.com/
+- The following Development dependencies will be downloaded after the install are:  
+   1. MySQL2
+        - https://www.npmjs.com/package/mysql2
+   2. Express.js
+        - https://expressjs.com/
+   3. Sequelize
+        - https://sequelize.org/
+   4. Dotenv
+        - https://www.npmjs.com/package/dotenv
+   5. Nodemon
+        - https://www.npmjs.com/package/nodemon
 
    
 
@@ -74,9 +92,9 @@ For more information on Node.js and Express, visit:
 8. To go back to the starting page, you can press the "Note Taker" heading in the top left 
 
 
-## Screenshot
+## Walkthrough
 
-![note taker screenshot](./public/assets/images/note_taker_screenshot.png)
+
 
 ## Credits
 
