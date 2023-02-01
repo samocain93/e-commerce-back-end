@@ -103,9 +103,11 @@ Please make sure Node.js has been installed. In your terminal/command line, run 
 
 
 
-## Walkthrough
+## Walkthrough  
 
-  - Demo link
+- Demo Walkthrough Video
+     * PLEASE NOTE: The DELETE functions are all shown at the end of the walkthrough video as not to interfere with the data being entered. 
+     * Video Walkthrough Link: [Watch Here](https://drive.google.com/file/d/1T1E9QiPXgMbVGcx6talhAMK0mAVf3IAs/view)
 
 
 
