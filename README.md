@@ -80,23 +80,23 @@ Please make sure Node.js has been installed. In your terminal/command line, run 
 
 ## Usage  
 
-1. Caption
+1. We first need to login and connect to our database. We'll do this by logging in to to our MySQL and should see the following message in our terminal where we're then prompted to enter our password.
 
 ![usage image 1](./assets/images/usage-1.png)
 
-2. Caption
+2. After we connect, we want to use the proper database. We'll do this by entering the command `USE ecommerce_db`.
 
 ![usage image 2](./assets/images/usage-2.png)
 
-3. Caption
+3. When I enter `SHOW tables;`, I can see that the tables are reflected in the database that we're using. 
 
 ![usage 3](./assets/images/usage-3.png)
 
-4. Caption
+4. Next, we need to seed the information from our seed files into our database. To do this, enter `npm run seed` in your terminal and you should see the following results of the information being entered.
 
 ![usage 4](./assets/images/usage-4.png)
 
-5. Caption
+5. Lastly, we need to start our server. We are using Nodemon, which will start and monitor our server for changes. To start, type `npm run watch` in the terminal and the server will begin.
 
 ![usage 5](./assets/images/usage-5.png)
 
