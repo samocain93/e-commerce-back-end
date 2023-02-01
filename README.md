@@ -101,6 +101,20 @@ Please make sure Node.js has been installed. In your terminal/command line, run 
 ![usage 5](./assets/images/usage-5.png)
 
 
+* We will also be using Insomnia to test our routes to show that we can perform all CRUD (Create, Read, Update, Delete) operations successfully, as demonstrated below (examples of all routes and functionality will be shown in the walkthrough demo)
+ 
+ ![Insomnia Demo 1](./assets/images/insomnia-1.png)
+
+ ![Insomnia Demo 2](./assets/images/insomnia-2.png)
+
+ ![Insomnia Demo 3](./assets/images/insomnia-3.png)
+
+ ![Insomnia Demo 4](./assets/images/insomnia-4.png)
+
+ ![Insomnia Demo 5](./assets/images/insomnia-5.png)
+
+ ![Insomnia Demo 6](./assets/images/insomnia-6.png)
+
 
 
 ## Walkthrough  
